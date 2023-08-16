@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="login.css">
+    <link href='https://fonts.googleapis.com/css?family=Aboreto' rel='stylesheet'>
+    <title>SKIN BREATH</title>
+</head>
+<body>
+
+    <div class="container">
+        <div class="left-image">
+            <img src="images/leftimage.png" alt="Left Image">
+        </div>
+
+        <div class="logo">
+            <img src="/images/logo.png" alt="Logo">
+        </div>
+        <div class="title">
+            <h3>SKIN BREATH</h3>
+        </div>
+
+        <form action="file.php" method="post">
+            <div class="form-group">
+                <input type="text" id="username" name="username" placeholder="Email" required>
+            </div>
+            <div class="form-group">
+                <input type="password" id="password" name="password" placeholder="Password" required>
+            </div>
+            <div class="remember-me">
+                <input type="checkbox" id="remember" name="remember">
+                <label for="remember">Remember Me</label>
+            </div>
+            <br> 
+            <button type="submit" class="btn" style="margin: 0 auto; display: block;"><a href="./home.html" style="color: white; text-decoration: none;">Login</a>
+            </button><br>
+            <p class="dont-have-account" style="text-align: center;" ><a href="register.html">Don't have an account? Click here</a></p>
+        </form>
+    </div>
+</body>
+</html>
